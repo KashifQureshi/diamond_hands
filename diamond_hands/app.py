@@ -329,7 +329,7 @@ def update_corr_table(company, entity, start_date, end_date):
     [Input("company-dropdown", "value")],
     [Input("attribute-dropdown", "value")],
     [Input("loading-2", "value")],
-    [State("entity-dropdown", "value")],
+    [Input("entity-dropdown", "value")],
 )
 def update_figure(company, attribute, loading, entity):
     pd.set_option('display.max_columns', None)
