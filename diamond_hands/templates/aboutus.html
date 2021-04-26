@@ -1,0 +1,49 @@
+{% include 'header.html' %}
+{% include 'menu_bar.html' %}
+{% block body %}
+
+		<head>
+			<link rel="stylesheet" type = "text/css" href = "static/css/aboutus.css">
+			<script type = "text/javascript" src="{{url_for('static', filename='js/aboutus.js')}}"></script>
+		</head>
+		<div class = "content">
+		<div id = "groupTwo">
+		<ul>
+			<li>
+				<span><img src = "static/img/yibo.png" title="Yibo" alt="Yibo Zhou"></span>
+				<span><img src = "static/img/anirudh.png" title = "Anirudh" alt = "Anirudh Negi"></span>
+				<span><img src = "static/img/kashif.png" title = "Kashif" alt = "Kashif Qureshi"> </span>
+			</li>
+
+			<li>
+				<span>Yibo Zhou</span>
+				<span>Anirudh Negi</span>
+				<span>Kashif Qureshi</span>
+			</li>
+			
+			<li>
+				<span>Rutgers University</span>
+				<span>Rutgers University</span>
+				<span>Rutgers University</span>
+			</li>
+			
+			<li>
+				<span>Chicago, IL</span>
+				<span>India</span>
+				<span>Chesterfield, NJ</span>
+			</li>
+			
+			<li>
+				<span>yz1119@scarletmail.rutgers.edu</span>
+				<span>an721@scarletmail.rutgers.edu</span>
+				<span>kashifq@scarletmail.rutgers.edu</span>
+			</li>
+			
+		</ul>
+
+		</div>
+		</div>
+
+{% endblock %}
+
+{% include 'footer.html' %}

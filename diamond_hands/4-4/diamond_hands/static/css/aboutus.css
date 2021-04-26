@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+		body {
+			background-color: rgb(54, 57, 63);
+		}
+		
+		#groupTwo ul {
+			color: rgb(245, 230, 220);
+			font-family: Raleway, Verdana, Arial, Geneva, Arial Black;
+			font-size: 25px;
+			list-style-type:none;
+			margin-left: 2%;
+		}
+
+		img {
+			margin-top: 2%;
+			margin-left: 2%;
+			margin-right: 22%;
+			margin-bottom: 1%;
+		}
+		
+		p {
+			margin-left: 5%;
+		}
+	
+		
+		li span {
+			display:inline-block;
+			width: 30%;
+		}

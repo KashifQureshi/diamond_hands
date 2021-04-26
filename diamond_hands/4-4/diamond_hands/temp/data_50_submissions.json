@@ -1,0 +1,2147 @@
+[
+    {
+        "id": "lojyok",
+        "title": "New Robinhood commercial just dropped",
+        "url": "https://v.redd.it/vdcio1q4zpi61",
+        "score": 63516,
+        "created_utc": 1613864858000.0,
+        "num_comments": 1264,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.009594123810529709,
+                    "Negative": 0.6928367614746094,
+                    "Neutral": 0.29611751437187195,
+                    "Mixed": 0.0014515889342874289
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.555525541305542,
+                    "Type": "ORGANIZATION",
+                    "Text": "Robinhood",
+                    "BeginOffset": 4,
+                    "EndOffset": 13
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "New Robinhood commercial",
+                    "BeginOffset": 0,
+                    "EndOffset": 24
+                }
+            ]
+        }
+    },
+    {
+        "id": "ls8o2m",
+        "title": "Lots of Ass Tattoos coming soon!",
+        "url": "https://v.redd.it/wb7qxhnh3nj61",
+        "score": 64230,
+        "created_utc": 1614265853000.0,
+        "num_comments": 794,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.4427090883255005,
+                    "Negative": 0.0016902679344639182,
+                    "Neutral": 0.5553550720214844,
+                    "Mixed": 0.00024561339523643255
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.957120954990387,
+                    "Type": "QUANTITY",
+                    "Text": "Lots of Ass Tattoos",
+                    "BeginOffset": 0,
+                    "EndOffset": 19
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "Lots",
+                    "BeginOffset": 0,
+                    "EndOffset": 4
+                },
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "Ass Tattoos",
+                    "BeginOffset": 8,
+                    "EndOffset": 19
+                }
+            ]
+        }
+    },
+    {
+        "id": "lpxl2c",
+        "title": "The Wolf of WallStreetBets Trailer - Created this for the community",
+        "url": "https://v.redd.it/3bity45dz2j61",
+        "score": 56022,
+        "created_utc": 1614022487000.0,
+        "num_comments": 1210,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.02220042422413826,
+                    "Negative": 0.0011242006439715624,
+                    "Neutral": 0.976658284664154,
+                    "Mixed": 1.7126465536421165e-05
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.4616513252258301,
+                    "Type": "ORGANIZATION",
+                    "Text": "WallStreetBets",
+                    "BeginOffset": 12,
+                    "EndOffset": 26
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "The Wolf",
+                    "BeginOffset": 0,
+                    "EndOffset": 8
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "WallStreetBets Trailer",
+                    "BeginOffset": 12,
+                    "EndOffset": 34
+                }
+            ]
+        }
+    },
+    {
+        "id": "lpmnwe",
+        "title": "Work Hard, Play Harder. WallstreetBets, I fucking love you all! Presenting Aloha WSB! \ud83d\udc8e\ud83d\ude4c\ud83d\ude80\ud83c\udf34",
+        "url": "https://i.redd.it/t0jb8qhst0j61.jpg",
+        "score": 54236,
+        "created_utc": 1613996185000.0,
+        "num_comments": 1830,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.9579237103462219,
+                    "Negative": 0.00046753056813031435,
+                    "Neutral": 0.04155324399471283,
+                    "Mixed": 5.549177876673639e-05
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 0.9971977472305298,
+                    "Text": "Hard",
+                    "BeginOffset": 5,
+                    "EndOffset": 9
+                },
+                {
+                    "Score": 0.9998468160629272,
+                    "Text": "Play Harder",
+                    "BeginOffset": 11,
+                    "EndOffset": 22
+                },
+                {
+                    "Score": 0.999958872795105,
+                    "Text": "Aloha WSB",
+                    "BeginOffset": 75,
+                    "EndOffset": 84
+                }
+            ]
+        }
+    },
+    {
+        "id": "lreh48",
+        "title": "IF HE\u2019S STILL IN, I\u2019M STILL IN",
+        "url": "https://v.redd.it/7yheb12qtfj61",
+        "score": 53937,
+        "created_utc": 1614177811000.0,
+        "num_comments": 1507,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.057103563100099564,
+                    "Negative": 0.7349867820739746,
+                    "Neutral": 0.20776784420013428,
+                    "Mixed": 0.00014177538105286658
+                }
+            },
+            "entites": [],
+            "keyphrases": []
+        }
+    },
+    {
+        "id": "lrnpci",
+        "title": "Looks like short squeeze back on the menu boys! Buy and HOLD \ud83d\udc8e\ud83d\ude4c\ud83d\udc8e",
+        "url": "https://v.redd.it/x9w26ht5uhj61",
+        "score": 50749,
+        "created_utc": 1614202349000.0,
+        "num_comments": 2236,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.292529433965683,
+                    "Negative": 0.15199574828147888,
+                    "Neutral": 0.5549638271331787,
+                    "Mixed": 0.0005110150668770075
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "short squeeze",
+                    "BeginOffset": 11,
+                    "EndOffset": 24
+                },
+                {
+                    "Score": 0.9999985694885254,
+                    "Text": "the menu boys",
+                    "BeginOffset": 33,
+                    "EndOffset": 46
+                }
+            ]
+        }
+    },
+    {
+        "id": "lpdvdf",
+        "title": "DeepFuckingValue position update | GME",
+        "url": "https://v.redd.it/5isofxaz5yi61",
+        "score": 48134,
+        "created_utc": 1613964107000.0,
+        "num_comments": 1295,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.0003269571461714804,
+                    "Negative": 0.009060623124241829,
+                    "Neutral": 0.9905312657356262,
+                    "Mixed": 8.115649688988924e-05
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.8903623223304749,
+                    "Type": "ORGANIZATION",
+                    "Text": "GME",
+                    "BeginOffset": 35,
+                    "EndOffset": 38
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9999730587005615,
+                    "Text": "position update",
+                    "BeginOffset": 17,
+                    "EndOffset": 32
+                }
+            ]
+        }
+    },
+    {
+        "id": "ls0wmd",
+        "title": "If GameStop hits 800 before 2/26 we will trigger the Mother of All Short Squeezes, read up.",
+        "url": "https://www.reddit.com/r/wallstreetbets/comments/ls0wmd/if_gamestop_hits_800_before_226_we_will_trigger/",
+        "score": 46965,
+        "created_utc": 1614237932000.0,
+        "num_comments": 6001,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.0881718248128891,
+                    "Negative": 0.2832772731781006,
+                    "Neutral": 0.6257989406585693,
+                    "Mixed": 0.002752033295109868
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9499273300170898,
+                    "Type": "ORGANIZATION",
+                    "Text": "GameStop",
+                    "BeginOffset": 3,
+                    "EndOffset": 11
+                },
+                {
+                    "Score": 0.9774042367935181,
+                    "Type": "QUANTITY",
+                    "Text": "800",
+                    "BeginOffset": 17,
+                    "EndOffset": 20
+                },
+                {
+                    "Score": 0.49287834763526917,
+                    "Type": "DATE",
+                    "Text": "2/26",
+                    "BeginOffset": 28,
+                    "EndOffset": 32
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "GameStop",
+                    "BeginOffset": 3,
+                    "EndOffset": 11
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "800",
+                    "BeginOffset": 17,
+                    "EndOffset": 20
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "2/26",
+                    "BeginOffset": 28,
+                    "EndOffset": 32
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "the Mother",
+                    "BeginOffset": 49,
+                    "EndOffset": 59
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "All Short Squeezes",
+                    "BeginOffset": 63,
+                    "EndOffset": 81
+                }
+            ]
+        }
+    },
+    {
+        "id": "lp3lhd",
+        "title": "I have finally dug myself out of a very unpleasant hole from last year \ud83d\udc4a",
+        "url": "https://i.redd.it/deyuan97mvi61.png",
+        "score": 46310,
+        "created_utc": 1613933100000.0,
+        "num_comments": 1647,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.17917871475219727,
+                    "Negative": 0.33606916666030884,
+                    "Neutral": 0.4308048188686371,
+                    "Mixed": 0.0539473257958889
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9981431365013123,
+                    "Type": "DATE",
+                    "Text": "last year",
+                    "BeginOffset": 61,
+                    "EndOffset": 70
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "a very unpleasant hole",
+                    "BeginOffset": 33,
+                    "EndOffset": 55
+                }
+            ]
+        }
+    },
+    {
+        "id": "lro7y5",
+        "title": "When he doubles down, I double down. Why? DFV with the in-depth analysis...",
+        "url": "https://v.redd.it/zb7gyvoszhj61",
+        "score": 42218,
+        "created_utc": 1614204080000.0,
+        "num_comments": 825,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.039635516703128815,
+                    "Negative": 0.32564374804496765,
+                    "Neutral": 0.6147360801696777,
+                    "Mixed": 0.01998465694487095
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "the in-depth analysis",
+                    "BeginOffset": 51,
+                    "EndOffset": 72
+                }
+            ]
+        }
+    },
+    {
+        "id": "lpnpn2",
+        "title": "A Few Good Apes - This is how the Congressional Hearings would have gone if WSB was asking the questions",
+        "url": "https://v.redd.it/dc6c18kz31j61",
+        "score": 41396,
+        "created_utc": 1613999685000.0,
+        "num_comments": 1530,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.09124107658863068,
+                    "Negative": 0.3085057735443115,
+                    "Neutral": 0.33850863575935364,
+                    "Mixed": 0.2617444694042206
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9702059030532837,
+                    "Type": "QUANTITY",
+                    "Text": "A Few Good Apes",
+                    "BeginOffset": 0,
+                    "EndOffset": 15
+                },
+                {
+                    "Score": 0.9435651898384094,
+                    "Type": "ORGANIZATION",
+                    "Text": "Congressional Hearings",
+                    "BeginOffset": 34,
+                    "EndOffset": 56
+                },
+                {
+                    "Score": 0.9897317290306091,
+                    "Type": "ORGANIZATION",
+                    "Text": "WSB",
+                    "BeginOffset": 76,
+                    "EndOffset": 79
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9998598694801331,
+                    "Text": "A Few Good Apes",
+                    "BeginOffset": 0,
+                    "EndOffset": 15
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "the Congressional Hearings",
+                    "BeginOffset": 30,
+                    "EndOffset": 56
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "WSB",
+                    "BeginOffset": 76,
+                    "EndOffset": 79
+                }
+            ]
+        }
+    },
+    {
+        "id": "lnmnks",
+        "title": "Robinhood brand is severely damaged: 56% of account holders are considering leaving Robinhood",
+        "url": "https://fortune.com/2021/02/19/robinhood-brand-damage-gamestop-hedge-funds-wallstreetbets-reddit-stocks-gme-amc/",
+        "score": 41266,
+        "created_utc": 1613758846000.0,
+        "num_comments": 4219,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.0005908653838559985,
+                    "Negative": 0.9092438220977783,
+                    "Neutral": 0.08961186558008194,
+                    "Mixed": 0.0005534837255254388
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9687503576278687,
+                    "Type": "ORGANIZATION",
+                    "Text": "Robinhood",
+                    "BeginOffset": 0,
+                    "EndOffset": 9
+                },
+                {
+                    "Score": 0.9973889589309692,
+                    "Type": "QUANTITY",
+                    "Text": "56%",
+                    "BeginOffset": 37,
+                    "EndOffset": 40
+                },
+                {
+                    "Score": 0.9892410635948181,
+                    "Type": "ORGANIZATION",
+                    "Text": "Robinhood",
+                    "BeginOffset": 84,
+                    "EndOffset": 93
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9999593496322632,
+                    "Text": "Robinhood brand",
+                    "BeginOffset": 0,
+                    "EndOffset": 15
+                },
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "56%",
+                    "BeginOffset": 37,
+                    "EndOffset": 40
+                },
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "account holders",
+                    "BeginOffset": 44,
+                    "EndOffset": 59
+                }
+            ]
+        }
+    },
+    {
+        "id": "lpjuxt",
+        "title": "WSB anime opening",
+        "url": "https://v.redd.it/diev47pyyzi61",
+        "score": 40869,
+        "created_utc": 1613985859000.0,
+        "num_comments": 932,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.0012111231917515397,
+                    "Negative": 0.0002076066011795774,
+                    "Neutral": 0.9985747337341309,
+                    "Mixed": 6.513467724289512e-06
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.8014633059501648,
+                    "Type": "ORGANIZATION",
+                    "Text": "WSB",
+                    "BeginOffset": 0,
+                    "EndOffset": 3
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9990621209144592,
+                    "Text": "WSB",
+                    "BeginOffset": 0,
+                    "EndOffset": 3
+                }
+            ]
+        }
+    },
+    {
+        "id": "lq9fbl",
+        "title": "Another WSB Sea Shanty - Bones in the Ocean Cover Link to Youtube in the comments",
+        "url": "https://v.redd.it/qeq5qxjep5j61",
+        "score": 39148,
+        "created_utc": 1614055304000.0,
+        "num_comments": 1023,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.08902846276760101,
+                    "Negative": 0.0028850233647972345,
+                    "Neutral": 0.9079822301864624,
+                    "Mixed": 0.00010435114381834865
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.5695215463638306,
+                    "Type": "ORGANIZATION",
+                    "Text": "WSB Sea",
+                    "BeginOffset": 8,
+                    "EndOffset": 15
+                },
+                {
+                    "Score": 0.6880275011062622,
+                    "Type": "PERSON",
+                    "Text": "Shanty",
+                    "BeginOffset": 16,
+                    "EndOffset": 22
+                },
+                {
+                    "Score": 0.3679240047931671,
+                    "Type": "PERSON",
+                    "Text": "Bones",
+                    "BeginOffset": 25,
+                    "EndOffset": 30
+                },
+                {
+                    "Score": 0.5130138993263245,
+                    "Type": "TITLE",
+                    "Text": "the",
+                    "BeginOffset": 34,
+                    "EndOffset": 37
+                },
+                {
+                    "Score": 0.8978075981140137,
+                    "Type": "ORGANIZATION",
+                    "Text": "Youtube",
+                    "BeginOffset": 58,
+                    "EndOffset": 65
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.999998152256012,
+                    "Text": "Another WSB Sea Shanty",
+                    "BeginOffset": 0,
+                    "EndOffset": 22
+                },
+                {
+                    "Score": 0.9999998807907104,
+                    "Text": "Bones",
+                    "BeginOffset": 25,
+                    "EndOffset": 30
+                },
+                {
+                    "Score": 0.9999704957008362,
+                    "Text": "the Ocean Cover Link",
+                    "BeginOffset": 34,
+                    "EndOffset": 54
+                },
+                {
+                    "Score": 0.8528882265090942,
+                    "Text": "Youtube",
+                    "BeginOffset": 58,
+                    "EndOffset": 65
+                }
+            ]
+        }
+    },
+    {
+        "id": "lq0fkd",
+        "title": "ROUND TWO WE OUT HURR",
+        "url": "https://v.redd.it/yz82t0czj3j61",
+        "score": 39086,
+        "created_utc": 1614029212000.0,
+        "num_comments": 1165,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.07614019513130188,
+                    "Negative": 0.7920790314674377,
+                    "Neutral": 0.13156536221504211,
+                    "Mixed": 0.00021539890440180898
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.7188630700111389,
+                    "Type": "QUANTITY",
+                    "Text": "ROUND TWO",
+                    "BeginOffset": 0,
+                    "EndOffset": 9
+                }
+            ],
+            "keyphrases": []
+        }
+    },
+    {
+        "id": "lr1gy9",
+        "title": "The squozening shall squazozzle later than you hope, sooner than you fear, and right when you least expect it. \ud83d\udc8e\u270a",
+        "url": "https://i.redd.it/00iect4j8cj61.jpg",
+        "score": 38361,
+        "created_utc": 1614134317000.0,
+        "num_comments": 1554,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.23161838948726654,
+                    "Negative": 0.19036230444908142,
+                    "Neutral": 0.5769291520118713,
+                    "Mixed": 0.0010901903733611107
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "The squozening",
+                    "BeginOffset": 0,
+                    "EndOffset": 14
+                }
+            ]
+        }
+    },
+    {
+        "id": "lqoyst",
+        "title": "New WSB members after making their first profitable play:",
+        "url": "https://v.redd.it/gszjvz5vp9j61",
+        "score": 38307,
+        "created_utc": 1614104028000.0,
+        "num_comments": 548,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.022837016731500626,
+                    "Negative": 0.0037226376589387655,
+                    "Neutral": 0.9733343124389648,
+                    "Mixed": 0.00010600241512292996
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9779060482978821,
+                    "Type": "ORGANIZATION",
+                    "Text": "WSB",
+                    "BeginOffset": 4,
+                    "EndOffset": 7
+                },
+                {
+                    "Score": 0.9618033766746521,
+                    "Type": "QUANTITY",
+                    "Text": "first profitable play",
+                    "BeginOffset": 35,
+                    "EndOffset": 56
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9998940229415894,
+                    "Text": "New WSB members",
+                    "BeginOffset": 0,
+                    "EndOffset": 15
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "their first profitable play",
+                    "BeginOffset": 29,
+                    "EndOffset": 56
+                }
+            ]
+        }
+    },
+    {
+        "id": "lsd088",
+        "title": "My father passed away today, and will now watch over all of us apes to ensure we go the moon. Rip pops, this one's for you\ud83d\ude80\ud83c\udf15",
+        "url": "https://www.reddit.com/r/wallstreetbets/comments/lsd088/my_father_passed_away_today_and_will_now_watch/",
+        "score": 40997,
+        "created_utc": 1614277017000.0,
+        "num_comments": 2508,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.4689973294734955,
+                    "Negative": 0.11984328925609589,
+                    "Neutral": 0.4035760760307312,
+                    "Mixed": 0.007583282887935638
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9957796335220337,
+                    "Type": "DATE",
+                    "Text": "today",
+                    "BeginOffset": 22,
+                    "EndOffset": 27
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "My father",
+                    "BeginOffset": 0,
+                    "EndOffset": 9
+                },
+                {
+                    "Score": 0.9998661279678345,
+                    "Text": "today",
+                    "BeginOffset": 22,
+                    "EndOffset": 27
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "the moon",
+                    "BeginOffset": 84,
+                    "EndOffset": 92
+                },
+                {
+                    "Score": 0.9958294034004211,
+                    "Text": "Rip",
+                    "BeginOffset": 94,
+                    "EndOffset": 97
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "this one",
+                    "BeginOffset": 104,
+                    "EndOffset": 112
+                }
+            ]
+        }
+    },
+    {
+        "id": "lnum6u",
+        "title": "Started with $1200 almost 2 years ago and turned it into 30k as of today",
+        "url": "https://i.redd.it/oy3vdgtw0ji61.png",
+        "score": 35643,
+        "created_utc": 1613780690000.0,
+        "num_comments": 1292,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.10429874807596207,
+                    "Negative": 0.10257840901613235,
+                    "Neutral": 0.783173680305481,
+                    "Mixed": 0.009949118830263615
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9942395091056824,
+                    "Type": "QUANTITY",
+                    "Text": "$1200",
+                    "BeginOffset": 13,
+                    "EndOffset": 18
+                },
+                {
+                    "Score": 0.935954749584198,
+                    "Type": "DATE",
+                    "Text": "2 years ago",
+                    "BeginOffset": 26,
+                    "EndOffset": 37
+                },
+                {
+                    "Score": 0.9967580437660217,
+                    "Type": "QUANTITY",
+                    "Text": "30k",
+                    "BeginOffset": 57,
+                    "EndOffset": 60
+                },
+                {
+                    "Score": 0.976444661617279,
+                    "Type": "DATE",
+                    "Text": "today",
+                    "BeginOffset": 67,
+                    "EndOffset": 72
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "$1200",
+                    "BeginOffset": 13,
+                    "EndOffset": 18
+                },
+                {
+                    "Score": 0.9996160268783569,
+                    "Text": "almost 2 years",
+                    "BeginOffset": 19,
+                    "EndOffset": 33
+                },
+                {
+                    "Score": 0.9999998807907104,
+                    "Text": "30k",
+                    "BeginOffset": 57,
+                    "EndOffset": 60
+                }
+            ]
+        }
+    },
+    {
+        "id": "ls84js",
+        "title": "Even CNBC is now reporting that Melvin and Vlad are in cahoots",
+        "url": "https://v.redd.it/id9cqgzeymj61",
+        "score": 37044,
+        "created_utc": 1614264444000.0,
+        "num_comments": 1924,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.013246665708720684,
+                    "Negative": 0.5561691522598267,
+                    "Neutral": 0.42969298362731934,
+                    "Mixed": 0.000891228555701673
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9981141090393066,
+                    "Type": "ORGANIZATION",
+                    "Text": "CNBC",
+                    "BeginOffset": 5,
+                    "EndOffset": 9
+                },
+                {
+                    "Score": 0.998883068561554,
+                    "Type": "PERSON",
+                    "Text": "Melvin",
+                    "BeginOffset": 32,
+                    "EndOffset": 38
+                },
+                {
+                    "Score": 0.9990490078926086,
+                    "Type": "PERSON",
+                    "Text": "Vlad",
+                    "BeginOffset": 43,
+                    "EndOffset": 47
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9999951720237732,
+                    "Text": "Even CNBC",
+                    "BeginOffset": 0,
+                    "EndOffset": 9
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "Melvin and Vlad",
+                    "BeginOffset": 32,
+                    "EndOffset": 47
+                }
+            ]
+        }
+    },
+    {
+        "id": "lrpmx4",
+        "title": "To all the people who were down and held...",
+        "url": "https://www.reddit.com/r/wallstreetbets/comments/lrpmx4/to_all_the_people_who_were_down_and_held/",
+        "score": 34107,
+        "created_utc": 1614207637000.0,
+        "num_comments": 3907,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.1322629749774933,
+                    "Negative": 0.24468782544136047,
+                    "Neutral": 0.5824612975120544,
+                    "Mixed": 0.04058792442083359
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "all the people",
+                    "BeginOffset": 3,
+                    "EndOffset": 17
+                }
+            ]
+        }
+    },
+    {
+        "id": "lrt82s",
+        "title": "20,000% gain..... on one .59 cent option lol 65$ into 12k",
+        "url": "https://i.redd.it/hmgew4n1zij61.jpg",
+        "score": 33201,
+        "created_utc": 1614215876000.0,
+        "num_comments": 1955,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.10703523457050323,
+                    "Negative": 0.01134426984935999,
+                    "Neutral": 0.879094123840332,
+                    "Mixed": 0.002526323078200221
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9948883056640625,
+                    "Type": "QUANTITY",
+                    "Text": "20,000%",
+                    "BeginOffset": 0,
+                    "EndOffset": 7
+                },
+                {
+                    "Score": 0.9888265132904053,
+                    "Type": "QUANTITY",
+                    "Text": "one .59 cent",
+                    "BeginOffset": 21,
+                    "EndOffset": 33
+                },
+                {
+                    "Score": 0.9703124761581421,
+                    "Type": "QUANTITY",
+                    "Text": "65$",
+                    "BeginOffset": 45,
+                    "EndOffset": 48
+                },
+                {
+                    "Score": 0.9907352924346924,
+                    "Type": "QUANTITY",
+                    "Text": "12k",
+                    "BeginOffset": 54,
+                    "EndOffset": 57
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.99714595079422,
+                    "Text": "20,000%",
+                    "BeginOffset": 0,
+                    "EndOffset": 7
+                },
+                {
+                    "Score": 0.979325532913208,
+                    "Text": "cent option lol",
+                    "BeginOffset": 29,
+                    "EndOffset": 44
+                },
+                {
+                    "Score": 0.989983320236206,
+                    "Text": "65",
+                    "BeginOffset": 45,
+                    "EndOffset": 47
+                }
+            ]
+        }
+    },
+    {
+        "id": "lnkxdg",
+        "title": "Vlad's testimony in a nutshell",
+        "url": "https://v.redd.it/t1iz6rktugi61",
+        "score": 33013,
+        "created_utc": 1613754461000.0,
+        "num_comments": 532,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.03858655318617821,
+                    "Negative": 0.019667115062475204,
+                    "Neutral": 0.9415247440338135,
+                    "Mixed": 0.0002216076827608049
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9410088062286377,
+                    "Type": "PERSON",
+                    "Text": "Vlad",
+                    "BeginOffset": 0,
+                    "EndOffset": 4
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "Vlad",
+                    "BeginOffset": 0,
+                    "EndOffset": 4
+                },
+                {
+                    "Score": 0.9984685778617859,
+                    "Text": "testimony",
+                    "BeginOffset": 7,
+                    "EndOffset": 16
+                }
+            ]
+        }
+    },
+    {
+        "id": "lrm5ps",
+        "title": "DIAMOND HANDS... LET'S GO BEYOND, PLUS ULTRA GME!!!!",
+        "url": "https://v.redd.it/3177s18ufhj61",
+        "score": 32962,
+        "created_utc": 1614197349000.0,
+        "num_comments": 1320,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.7447900176048279,
+                    "Negative": 0.017007378861308098,
+                    "Neutral": 0.23765942454338074,
+                    "Mixed": 0.000543150759767741
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 0.9916515350341797,
+                    "Text": "DIAMOND HANDS",
+                    "BeginOffset": 0,
+                    "EndOffset": 13
+                },
+                {
+                    "Score": 0.8658449649810791,
+                    "Text": "'S GO BEYOND",
+                    "BeginOffset": 20,
+                    "EndOffset": 32
+                }
+            ]
+        }
+    },
+    {
+        "id": "lrs6wg",
+        "title": "This sub shat on the new people coming in and now they\u2019ve saved our asses",
+        "url": "https://www.reddit.com/r/wallstreetbets/comments/lrs6wg/this_sub_shat_on_the_new_people_coming_in_and_now/",
+        "score": 31882,
+        "created_utc": 1614213967000.0,
+        "num_comments": 2475,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.7322747707366943,
+                    "Negative": 0.13712510466575623,
+                    "Neutral": 0.07629848271608353,
+                    "Mixed": 0.054301667958498
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 0.9999796152114868,
+                    "Text": "This sub shat",
+                    "BeginOffset": 0,
+                    "EndOffset": 13
+                },
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "the new people",
+                    "BeginOffset": 17,
+                    "EndOffset": 31
+                }
+            ]
+        }
+    },
+    {
+        "id": "lnqgz8",
+        "title": "GME YOLO update \u2014 Feb 19 2021",
+        "url": "https://i.redd.it/2xswz0h11ii61.png",
+        "score": 206740,
+        "created_utc": 1613768755000.0,
+        "num_comments": 13208,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.0015721474774181843,
+                    "Negative": 0.0008108036126941442,
+                    "Neutral": 0.9976123571395874,
+                    "Mixed": 4.8110500756592955e-06
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9987587332725525,
+                    "Type": "DATE",
+                    "Text": "Feb 19 2021",
+                    "BeginOffset": 18,
+                    "EndOffset": 29
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "GME YOLO",
+                    "BeginOffset": 0,
+                    "EndOffset": 8
+                }
+            ]
+        }
+    },
+    {
+        "id": "lngem6",
+        "title": "Do you think he realized it YES OR NO",
+        "url": "https://i.redd.it/c8rg4qcntfi61.jpg",
+        "score": 124074,
+        "created_utc": 1613742948000.0,
+        "num_comments": 3458,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.014039845205843449,
+                    "Negative": 0.43815237283706665,
+                    "Neutral": 0.5449070930480957,
+                    "Mixed": 0.002900622086599469
+                }
+            },
+            "entites": [],
+            "keyphrases": []
+        }
+    },
+    {
+        "id": "lrrio6",
+        "title": "To everyone that held",
+        "url": "https://v.redd.it/dkq6repfpij61",
+        "score": 111235,
+        "created_utc": 1614212666000.0,
+        "num_comments": 3112,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.41288891434669495,
+                    "Negative": 0.012170740403234959,
+                    "Neutral": 0.5708097815513611,
+                    "Mixed": 0.0041304901242256165
+                }
+            },
+            "entites": [],
+            "keyphrases": []
+        }
+    },
+    {
+        "id": "lsgqig",
+        "title": "I don't need Fox Business to hold me accountable, but I'll take it!",
+        "url": "https://i.redd.it/onrq8o9ptoj61.jpg",
+        "score": 130600,
+        "created_utc": 1614286746000.0,
+        "num_comments": 2304,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.5316550135612488,
+                    "Negative": 0.14886592328548431,
+                    "Neutral": 0.2894904613494873,
+                    "Mixed": 0.029988626018166542
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.7330002784729004,
+                    "Type": "ORGANIZATION",
+                    "Text": "Fox",
+                    "BeginOffset": 13,
+                    "EndOffset": 16
+                },
+                {
+                    "Score": 0.5187537670135498,
+                    "Type": "TITLE",
+                    "Text": "Business",
+                    "BeginOffset": 17,
+                    "EndOffset": 25
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "Fox Business",
+                    "BeginOffset": 13,
+                    "EndOffset": 25
+                }
+            ]
+        }
+    },
+    {
+        "id": "lro0p9",
+        "title": "ROUND 2! We've refuelled, and now we're going to pluto \ud83d\ude80\ud83d\ude4f",
+        "url": "https://v.redd.it/g8dcea3iyhj61",
+        "score": 104650,
+        "created_utc": 1614203592000.0,
+        "num_comments": 4879,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.2514530122280121,
+                    "Negative": 0.12796171009540558,
+                    "Neutral": 0.6200944781303406,
+                    "Mixed": 0.0004908685223199427
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.5550071597099304,
+                    "Type": "QUANTITY",
+                    "Text": "ROUND 2",
+                    "BeginOffset": 0,
+                    "EndOffset": 7
+                },
+                {
+                    "Score": 0.6275057196617126,
+                    "Type": "LOCATION",
+                    "Text": "pluto",
+                    "BeginOffset": 49,
+                    "EndOffset": 54
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "2",
+                    "BeginOffset": 6,
+                    "EndOffset": 7
+                }
+            ]
+        }
+    },
+    {
+        "id": "lnfh3v",
+        "title": "When I see the media saying we use \"an offensive term for people with developmental disorders...\"",
+        "url": "https://j.gifs.com/q7GXrR.gif",
+        "score": 100319,
+        "created_utc": 1613740177000.0,
+        "num_comments": 3441,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.001904279226437211,
+                    "Negative": 0.1892457902431488,
+                    "Neutral": 0.8062310814857483,
+                    "Mixed": 0.002618794795125723
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "the media",
+                    "BeginOffset": 11,
+                    "EndOffset": 20
+                },
+                {
+                    "Score": 0.9999999403953552,
+                    "Text": "an offensive term",
+                    "BeginOffset": 36,
+                    "EndOffset": 53
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "people",
+                    "BeginOffset": 58,
+                    "EndOffset": 64
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "developmental disorders",
+                    "BeginOffset": 70,
+                    "EndOffset": 93
+                }
+            ]
+        }
+    },
+    {
+        "id": "lo4qu6",
+        "title": "Hang in there! To the moon? No, to the MOONSK and BEYOND!",
+        "url": "https://v.redd.it/k0lsmiwt4mi61",
+        "score": 94218,
+        "created_utc": 1613818338000.0,
+        "num_comments": 1687,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.4350264072418213,
+                    "Negative": 0.03525771200656891,
+                    "Neutral": 0.5295933485031128,
+                    "Mixed": 0.00012252593296580017
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.6310861706733704,
+                    "Type": "LOCATION",
+                    "Text": "MOONSK",
+                    "BeginOffset": 39,
+                    "EndOffset": 45
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9994978904724121,
+                    "Text": "Hang",
+                    "BeginOffset": 0,
+                    "EndOffset": 4
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "the moon",
+                    "BeginOffset": 18,
+                    "EndOffset": 26
+                },
+                {
+                    "Score": 0.9988812804222107,
+                    "Text": "the MOONSK and BEYOND",
+                    "BeginOffset": 35,
+                    "EndOffset": 56
+                }
+            ]
+        }
+    },
+    {
+        "id": "lowgx3",
+        "title": "Recovery Incoming!",
+        "url": "https://v.redd.it/0t13ux4zuti61",
+        "score": 88626,
+        "created_utc": 1613911898000.0,
+        "num_comments": 1871,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.5060334205627441,
+                    "Negative": 0.23414938151836395,
+                    "Neutral": 0.2594046890735626,
+                    "Mixed": 0.0004125175764784217
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 0.8945164680480957,
+                    "Text": "Incoming",
+                    "BeginOffset": 9,
+                    "EndOffset": 17
+                }
+            ]
+        }
+    },
+    {
+        "id": "lnuffj",
+        "title": "If this isn\u2019t a sign from God himself",
+        "url": "https://i.redd.it/mwngf5gdzii61.jpg",
+        "score": 87496,
+        "created_utc": 1613780138000.0,
+        "num_comments": 2240,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.016418879851698875,
+                    "Negative": 0.3282722234725952,
+                    "Neutral": 0.6195327639579773,
+                    "Mixed": 0.035776134580373764
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.8125079274177551,
+                    "Type": "PERSON",
+                    "Text": "God",
+                    "BeginOffset": 26,
+                    "EndOffset": 29
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "a sign",
+                    "BeginOffset": 14,
+                    "EndOffset": 20
+                },
+                {
+                    "Score": 0.9998962879180908,
+                    "Text": "God",
+                    "BeginOffset": 26,
+                    "EndOffset": 29
+                }
+            ]
+        }
+    },
+    {
+        "id": "lrmrsc",
+        "title": "GME up 37% \"I'm not sure I can take it again\"",
+        "url": "https://v.redd.it/a1kqnxvckhj61",
+        "score": 83541,
+        "created_utc": 1614198899000.0,
+        "num_comments": 6329,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.013633828610181808,
+                    "Negative": 0.12733744084835052,
+                    "Neutral": 0.8569098114967346,
+                    "Mixed": 0.002118942327797413
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9968249797821045,
+                    "Type": "QUANTITY",
+                    "Text": "37%",
+                    "BeginOffset": 7,
+                    "EndOffset": 10
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9997051358222961,
+                    "Text": "37%",
+                    "BeginOffset": 7,
+                    "EndOffset": 10
+                }
+            ]
+        }
+    },
+    {
+        "id": "ls8dka",
+        "title": "They are selling millions of shares from ETFs that\u2019s why it\u2019s dipping",
+        "url": "https://www.reddit.com/r/wallstreetbets/comments/ls8dka/they_are_selling_millions_of_shares_from_etfs/",
+        "score": 83348,
+        "created_utc": 1614265124000.0,
+        "num_comments": 5104,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.034480150789022446,
+                    "Negative": 0.17164188623428345,
+                    "Neutral": 0.7928973436355591,
+                    "Mixed": 0.0009806538000702858
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9821369051933289,
+                    "Type": "QUANTITY",
+                    "Text": "millions of shares",
+                    "BeginOffset": 17,
+                    "EndOffset": 35
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "millions",
+                    "BeginOffset": 17,
+                    "EndOffset": 25
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "shares",
+                    "BeginOffset": 29,
+                    "EndOffset": 35
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "ETFs",
+                    "BeginOffset": 41,
+                    "EndOffset": 45
+                }
+            ]
+        }
+    },
+    {
+        "id": "lsgv43",
+        "title": "Tried to quickly buy 50k worth of GME before close but fat fingered and ended up buying \u201cGMED\u201d",
+        "url": "https://i.redd.it/8qb3tiaquoj61.jpg",
+        "score": 93899,
+        "created_utc": 1614287065000.0,
+        "num_comments": 6597,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.004949208814650774,
+                    "Negative": 0.8846375346183777,
+                    "Neutral": 0.1098659485578537,
+                    "Mixed": 0.0005472835619002581
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9973489046096802,
+                    "Type": "QUANTITY",
+                    "Text": "50k",
+                    "BeginOffset": 21,
+                    "EndOffset": 24
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "50k",
+                    "BeginOffset": 21,
+                    "EndOffset": 24
+                },
+                {
+                    "Score": 0.9999998807907104,
+                    "Text": "GME",
+                    "BeginOffset": 34,
+                    "EndOffset": 37
+                },
+                {
+                    "Score": 0.9998164772987366,
+                    "Text": "GMED",
+                    "BeginOffset": 89,
+                    "EndOffset": 93
+                }
+            ]
+        }
+    },
+    {
+        "id": "lo32zv",
+        "title": "u/DeepFuckingValue has a Wikipedia page now",
+        "url": "https://i.redd.it/gtpaof5sili61.png",
+        "score": 78526,
+        "created_utc": 1613810948000.0,
+        "num_comments": 1483,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.011852656491100788,
+                    "Negative": 0.2710641026496887,
+                    "Neutral": 0.715373694896698,
+                    "Mixed": 0.001709500327706337
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.5479475855827332,
+                    "Type": "ORGANIZATION",
+                    "Text": "Wikipedia",
+                    "BeginOffset": 25,
+                    "EndOffset": 34
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.8840136528015137,
+                    "Text": "DeepFuckingValue",
+                    "BeginOffset": 2,
+                    "EndOffset": 18
+                },
+                {
+                    "Score": 0.9999998211860657,
+                    "Text": "a Wikipedia page",
+                    "BeginOffset": 23,
+                    "EndOffset": 39
+                }
+            ]
+        }
+    },
+    {
+        "id": "lryxbl",
+        "title": "I KNEW MY SIMULATIONS WERE CORRECT!!!",
+        "url": "https://v.redd.it/t1r360zl4kj61",
+        "score": 78083,
+        "created_utc": 1614230086000.0,
+        "num_comments": 979,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.12859144806861877,
+                    "Negative": 0.7991418242454529,
+                    "Neutral": 0.07053368538618088,
+                    "Mixed": 0.0017330567352473736
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 0.9462332129478455,
+                    "Text": "MY SIMULATIONS",
+                    "BeginOffset": 7,
+                    "EndOffset": 21
+                }
+            ]
+        }
+    },
+    {
+        "id": "lsaiv5",
+        "title": "Vlad on his way to commit market manipulation after seeing the GME price",
+        "url": "https://v.redd.it/szcho43lhnj61",
+        "score": 80440,
+        "created_utc": 1614270693000.0,
+        "num_comments": 1510,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.0018931964877992868,
+                    "Negative": 0.6712028980255127,
+                    "Neutral": 0.32583966851234436,
+                    "Mixed": 0.0010642627021297812
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9944341778755188,
+                    "Type": "PERSON",
+                    "Text": "Vlad",
+                    "BeginOffset": 0,
+                    "EndOffset": 4
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "Vlad",
+                    "BeginOffset": 0,
+                    "EndOffset": 4
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "his way",
+                    "BeginOffset": 8,
+                    "EndOffset": 15
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "market manipulation",
+                    "BeginOffset": 26,
+                    "EndOffset": 45
+                }
+            ]
+        }
+    },
+    {
+        "id": "lq4udf",
+        "title": "Bought a car with $GME tendies-had to say thanks",
+        "url": "https://i.redd.it/psk8mb3mj4j61.jpg",
+        "score": 76420,
+        "created_utc": 1614041201000.0,
+        "num_comments": 2626,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.36281096935272217,
+                    "Negative": 0.10037871450185776,
+                    "Neutral": 0.4627494812011719,
+                    "Mixed": 0.07406078279018402
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.580826461315155,
+                    "Type": "ORGANIZATION",
+                    "Text": "$GME",
+                    "BeginOffset": 18,
+                    "EndOffset": 22
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "a car",
+                    "BeginOffset": 7,
+                    "EndOffset": 12
+                },
+                {
+                    "Score": 0.9999966025352478,
+                    "Text": "$GME tendies",
+                    "BeginOffset": 18,
+                    "EndOffset": 30
+                }
+            ]
+        }
+    },
+    {
+        "id": "lob61p",
+        "title": "Food bank donation with GME gains. Shelves fully stocked with tendies.",
+        "url": "https://i.imgur.com/VeP09Ax.jpg",
+        "score": 76299,
+        "created_utc": 1613839993000.0,
+        "num_comments": 1705,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.3204423487186432,
+                    "Negative": 0.0016197995282709599,
+                    "Neutral": 0.6777092814445496,
+                    "Mixed": 0.0002286070230184123
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.5832135081291199,
+                    "Type": "ORGANIZATION",
+                    "Text": "GME",
+                    "BeginOffset": 24,
+                    "EndOffset": 27
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9999977946281433,
+                    "Text": "Food bank donation",
+                    "BeginOffset": 0,
+                    "EndOffset": 18
+                },
+                {
+                    "Score": 0.9999997615814209,
+                    "Text": "GME",
+                    "BeginOffset": 24,
+                    "EndOffset": 27
+                },
+                {
+                    "Score": 0.9999991655349731,
+                    "Text": "Shelves",
+                    "BeginOffset": 35,
+                    "EndOffset": 42
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "tendies",
+                    "BeginOffset": 62,
+                    "EndOffset": 69
+                }
+            ]
+        }
+    },
+    {
+        "id": "lqra7k",
+        "title": "\"Give my regards to your puppet master!\" \ud83d\udc19",
+        "url": "https://i.redd.it/60cyis2r7aj61.jpg",
+        "score": 74399,
+        "created_utc": 1614109842000.0,
+        "num_comments": 3287,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.1252402365207672,
+                    "Negative": 0.00845341756939888,
+                    "Neutral": 0.8662538528442383,
+                    "Mixed": 5.2607629186240956e-05
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "my regards",
+                    "BeginOffset": 6,
+                    "EndOffset": 16
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "your puppet master",
+                    "BeginOffset": 20,
+                    "EndOffset": 38
+                }
+            ]
+        }
+    },
+    {
+        "id": "lox4sr",
+        "title": "Hey, Bloomberg, how about you go fuck yourselves.",
+        "url": "https://i.redd.it/2advzld72ui61.png",
+        "score": 71013,
+        "created_utc": 1613914272000.0,
+        "num_comments": 2468,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.0019655402284115553,
+                    "Negative": 0.9318646192550659,
+                    "Neutral": 0.06449302285909653,
+                    "Mixed": 0.0016767492052167654
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.7140830159187317,
+                    "Type": "PERSON",
+                    "Text": "Bloomberg",
+                    "BeginOffset": 5,
+                    "EndOffset": 14
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9994972944259644,
+                    "Text": "Bloomberg",
+                    "BeginOffset": 5,
+                    "EndOffset": 14
+                },
+                {
+                    "Score": 0.9998912811279297,
+                    "Text": "about you",
+                    "BeginOffset": 20,
+                    "EndOffset": 29
+                }
+            ]
+        }
+    },
+    {
+        "id": "lrpl25",
+        "title": "Power to the players",
+        "url": "https://i.redd.it/vu9cgzg6aij61.jpg",
+        "score": 69140,
+        "created_utc": 1614207512000.0,
+        "num_comments": 1233,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.70101398229599,
+                    "Negative": 0.05305347219109535,
+                    "Neutral": 0.23531855642795563,
+                    "Mixed": 0.010613995604217052
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "Power",
+                    "BeginOffset": 0,
+                    "EndOffset": 5
+                }
+            ]
+        }
+    },
+    {
+        "id": "lqjxhp",
+        "title": "Walking into the stock market today",
+        "url": "https://i.redd.it/hwdv7ctno8j61.gif",
+        "score": 67123,
+        "created_utc": 1614091318000.0,
+        "num_comments": 1544,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.015519742853939533,
+                    "Negative": 0.03665555641055107,
+                    "Neutral": 0.9475821852684021,
+                    "Mixed": 0.00024249819398391992
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.9886142015457153,
+                    "Type": "DATE",
+                    "Text": "today",
+                    "BeginOffset": 30,
+                    "EndOffset": 35
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9996894598007202,
+                    "Text": "the stock",
+                    "BeginOffset": 13,
+                    "EndOffset": 22
+                }
+            ]
+        }
+    },
+    {
+        "id": "ls40os",
+        "title": "HERE COMES THE MONEY",
+        "url": "https://v.redd.it/z60zlvx3ulj61",
+        "score": 67018,
+        "created_utc": 1614250562000.0,
+        "num_comments": 1301,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEUTRAL",
+                "scores": {
+                    "Positive": 0.17740607261657715,
+                    "Negative": 0.26625746488571167,
+                    "Neutral": 0.55056232213974,
+                    "Mixed": 0.005774092860519886
+                }
+            },
+            "entites": [],
+            "keyphrases": []
+        }
+    },
+    {
+        "id": "lrnc62",
+        "title": "Oh my god I'm going to fucking pass out.",
+        "url": "https://i.redd.it/ubtvx0gqohj61.jpg",
+        "score": 64413,
+        "created_utc": 1614200301000.0,
+        "num_comments": 3646,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "NEGATIVE",
+                "scores": {
+                    "Positive": 0.01359708234667778,
+                    "Negative": 0.8736246228218079,
+                    "Neutral": 0.07173524796962738,
+                    "Mixed": 0.04104307293891907
+                }
+            },
+            "entites": [],
+            "keyphrases": [
+                {
+                    "Score": 1.0,
+                    "Text": "my god",
+                    "BeginOffset": 3,
+                    "EndOffset": 9
+                }
+            ]
+        }
+    },
+    {
+        "id": "lscure",
+        "title": "America, Meet GameStop: WE'RE NOT FUCKING LEAVING \ud83d\udc8e\ud83d\ude4c\ud83d\udc8e FOR LIFE",
+        "url": "https://v.redd.it/eql8ioecynj61",
+        "score": 69692,
+        "created_utc": 1614276621000.0,
+        "num_comments": 1670,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.4770754277706146,
+                    "Negative": 0.04893213510513306,
+                    "Neutral": 0.473911851644516,
+                    "Mixed": 8.056565275182948e-05
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.7759426236152649,
+                    "Type": "LOCATION",
+                    "Text": "America",
+                    "BeginOffset": 0,
+                    "EndOffset": 7
+                },
+                {
+                    "Score": 0.9365444183349609,
+                    "Type": "ORGANIZATION",
+                    "Text": "GameStop",
+                    "BeginOffset": 14,
+                    "EndOffset": 22
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9999998807907104,
+                    "Text": "America",
+                    "BeginOffset": 0,
+                    "EndOffset": 7
+                },
+                {
+                    "Score": 0.9386923909187317,
+                    "Text": "Meet GameStop",
+                    "BeginOffset": 9,
+                    "EndOffset": 22
+                },
+                {
+                    "Score": 0.8940127491950989,
+                    "Text": "WE'RE NOT FUCKING LEAVING \ud83d\udc8e\ud83d\ude4c\ud83d\udc8e",
+                    "BeginOffset": 24,
+                    "EndOffset": 53
+                }
+            ]
+        }
+    },
+    {
+        "id": "lnkpjk",
+        "title": "The r/wsb new money crowd gives the stonks a good talking to",
+        "url": "https://v.redd.it/ya8jo65psgi61",
+        "score": 63789,
+        "created_utc": 1613753968000.0,
+        "num_comments": 2398,
+        "analyzed": true,
+        "analysis": {
+            "sentiment": {
+                "sentiment": "POSITIVE",
+                "scores": {
+                    "Positive": 0.8015782833099365,
+                    "Negative": 0.01426734495908022,
+                    "Neutral": 0.1651553064584732,
+                    "Mixed": 0.018999112769961357
+                }
+            },
+            "entites": [
+                {
+                    "Score": 0.6257533431053162,
+                    "Type": "ORGANIZATION",
+                    "Text": "r/wsb",
+                    "BeginOffset": 4,
+                    "EndOffset": 9
+                }
+            ],
+            "keyphrases": [
+                {
+                    "Score": 0.9999998807907104,
+                    "Text": "The r/wsb new money crowd",
+                    "BeginOffset": 0,
+                    "EndOffset": 25
+                },
+                {
+                    "Score": 1.0,
+                    "Text": "the stonks",
+                    "BeginOffset": 32,
+                    "EndOffset": 42
+                },
+                {
+                    "Score": 0.9999251365661621,
+                    "Text": "a good",
+                    "BeginOffset": 43,
+                    "EndOffset": 49
+                }
+            ]
+        }
+    }
+]

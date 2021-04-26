@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+	input[type="date"], select {
+		background-color: rgb(108, 114, 126);
+		color: rgb(0, 0, 0);
+	}
+
+	input[type="submit"] {
+		border-radius: 5px;
+		text-align: center;
+	}
+
+	input[type="submit"] {
+	background-color: rgb(54, 57, 63);
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	th, tr {
+		background-color: rgb(54, 57, 63);
+		color: black;
+	}
+
+	body {
+		background-color: rgb(54, 57, 63);
+		color: rgb(245, 230, 220);
+  		margin: 0;
+  		font-family: Raleway, Arial, Helvetica, sans-serif;
+	}
+
+	
