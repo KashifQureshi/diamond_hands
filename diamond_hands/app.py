@@ -20,6 +20,7 @@ from plotly.subplots import make_subplots
 from sklearn import linear_model, tree, neighbors
 from sklearn.model_selection import train_test_split
 from wordcloud import WordCloud
+from PIL import Image
 
 from helper import *
 from queries import *
@@ -253,7 +254,7 @@ def get_column(data, column):
     [Input('ml_daterange', "start_date")],
     [Input('ml_daterange', "end_date")],
     [Input('loading', "value")],
-    [State('entity-attribute', "value")], )
+    [Input('entity-attribute', "value")], )
 def train_and_display(name, company, stock_attr, reddit_attr, start_date, end_date, loading, entity):
     df_submission = get_submission_normalized(company, entity)
     df_stock = get_stock_normalized(company, start_date, end_date)
@@ -377,11 +378,14 @@ def save_word_cloud(b, company, entity):
     img = BytesIO()
     data = get_submission_df(company, entity)
     entites = [e['key'] for e in list(chain.from_iterable([d['keyphrases']['buckets'] for d in data]))]
+    diamond = np.array(Image.open('static\img\diamond.png'))
 
     wordcloud = WordCloud(
-        background_color='white',
-        width=400,
-        height=400
+        background_color='rgb(54, 57, 63)',
+        colormap = 'autumn',
+        mask = diamond,
+        width=500,
+        height=500
     ).generate(' '.join(entites))
     wordcloud.to_image().save(img, format='PNG')
     return 'data:image/png;base64,{}'.format(base64.b64encode(img.getvalue()).decode())
