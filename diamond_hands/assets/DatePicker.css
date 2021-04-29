@@ -1,0 +1,17 @@
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background-color: rgb(54, 57, 63) !important;
+  border: 1px double rgb(0, 150, 0) !important;
+  color: rgb(245, 230, 220) !important;
+}
+
+.CalendarDay__selected_span {
+    background-color: rgb(54, 57, 63) !important;
+    border: 1px double rgb(0, 150, 0) !important;
+    color: rgb(245, 230, 220) !important;
+}
+
+.CalendarDay__selected_span:active, .CalendarDay__selected_span:hover {
+    background-color: rgb(245, 230, 220) !important;
+    border: 1px double rgb(57, 81, 85) !important;
+    color: rgb(0, 0, 0) !important;
+}

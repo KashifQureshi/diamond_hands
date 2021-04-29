@@ -13,14 +13,14 @@ import dash_table
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-from dash.dependencies import Input, Output, State
+from PIL import Image
+from dash.dependencies import Input, Output
 from flask import Flask, render_template
 from flask_caching import Cache
 from plotly.subplots import make_subplots
 from sklearn import linear_model, tree, neighbors
 from sklearn.model_selection import train_test_split
 from wordcloud import WordCloud
-from PIL import Image
 
 from helper import *
 from queries import *
@@ -55,7 +55,7 @@ cache_analytics = Cache(dash_app_analytics.server, config={
 @cache_home.memoize(timeout=TIMEOUT)
 @cache_data.memoize(timeout=TIMEOUT)
 def get_submission_normalized(company, entity):
-    submissions_data_home = get_submissions_from_date(company, entity, True, '2021-01-01', '2021-03-31')
+    submissions_data_home = get_submissions_from_date(company, entity, True, '2021-01-01', '2021-04-28')
     df_submission = pd.json_normalize(submissions_data_home)
     return df_submission
 
@@ -93,13 +93,6 @@ def loading(value):
     return value
 
 
-@dash_app_analytics.callback(Output("loading-output-2", "children"),
-                             Input("entity-dropdown", "value"))
-def loading_2(value):
-    time.sleep(0)
-    return value
-
-
 # setting layout for analytics tab
 dash_app_analytics.layout = html.Div([
     # div for static header
@@ -115,8 +108,8 @@ dash_app_analytics.layout = html.Div([
                     start_date_placeholder_text="Start Period",
                     end_date_placeholder_text="End Period",
                     start_date=date(2021, 1, 1),
-                    end_date=datetime.now(),
-                )
+                    end_date=datetime.now(), style={'color': 'black'}
+                ), 
             ], style={'margin-top': '10px'}),
             html.Div([
                 html.P("Select Model:"),
@@ -189,53 +182,7 @@ dash_app_analytics.layout = html.Div([
     ], style={'width': '100%', 'position': 'relative', 'float': 'left', 'display': 'inline-block',
               'margin-left': '50px',
               'margin-top': '125px'}),
-    # div for graph and its filters
-    html.Div([
-        html.Div([
-            # filter for companies
-            html.Div([
-                html.P(["Companies: "]),
-                dcc.Dropdown(id="company-dropdown", clearable=False, value='gme',
-                             options=[{'label': c, 'value': c} for c in ["gme", "amc"]],
-                             style={'width': '150px', 'display': 'inline-block', 'color': '#000'})],
-                style={'position': 'relative', 'float': 'left'}),
-            # filter for entities
-            html.Div([
-                html.P(["Entities: "]),
-                dcc.Dropdown(id="entity-dropdown", clearable=False, value='All',
-                             options=[{'label': c, 'value': c} for c in
-                                      ["All", "Elon Musk", "DeepFuckingValue", "Robinhood",
-                                       "Melvin Capital"]],
-                             style={'width': '150px', 'display': 'inline-block', 'color': '#000'})],
-                style={'position': 'relative', 'float': 'left',
-                       'margin-left': '20px'}),
-            # filter for attributes
-            html.Div([
-                html.P(["Attribute: "], style={'margin-left': '40px'}),
-                dcc.Dropdown(id="attribute-dropdown", clearable=False,
-                             value='score.value',
-                             options=[{'label': attributes[c], 'value': c} for c in attributes],
-                             style={'width': '200px', 'display': 'inline-block', 'color': '#000'})],
-                style={'position': 'relative', 'float': 'left',
-                       'margin-left': '20px'}),
-        ], style={'margin-top': '20px', 'margin-left': '100px'}),
-        html.Div([dcc.Loading(
-            id="loading-2",
-            children=[
-                # graph stock vs submission data
-                html.Div([dcc.Graph(id='multi-axis-chart',
-                                    style={'position': 'relative', 'float': 'left', 'width': '800px'}
-                                    )], style={'width': '800px', 'position': 'relative', 'float': 'left',
-                                               'display': 'inline-block',
-                                               'margin-left': '100px'}),
-                # div for wordcloud image
-                html.Div([html.Center(html.Img(id="image_wc"))],
-                         style={'width': '400px', 'position': 'relative', 'float': 'left',
-                                'margin-left': '50px', 'margin-bottom': '50px'}),
-            ])
-        ], style={'margin-top': '150px'})
-    ], style={'position': 'relative', 'float': 'left',
-              'margin-top': '150px', 'width': '100%'})
+
 ])
 
 
@@ -291,8 +238,10 @@ def train_and_display(name, company, stock_attr, reddit_attr, start_date, end_da
     fig.update_yaxes(title_font_color='rgb(245, 230, 220)', color='rgb(245, 230, 220)')
     fig.update_layout(
         title_text=customwrap(
-            "<b> Finding Correlation between Reddit with Stock market with Different Prediction Models during 2021 - Q1 </b>", 75),
-        title_font_color='rgb(245, 230, 220)', paper_bgcolor='rgb(54, 57, 63)', plot_bgcolor='rgb(54, 57, 63)', legend_font_color='rgb(245, 230, 220)', legend_title_font_color='rgb(245, 230, 230)'
+            "<b> Finding Correlation between Reddit with Stock market with Different Prediction Models during 2021 - Q1 </b>",
+            75),
+        title_font_color='rgb(245, 230, 220)', paper_bgcolor='rgb(54, 57, 63)', plot_bgcolor='rgb(54, 57, 63)',
+        legend_font_color='rgb(245, 230, 220)', legend_title_font_color='rgb(245, 230, 230)'
     )
     return fig
 
@@ -322,73 +271,6 @@ def update_corr_table(company, entity, start_date, end_date):
                  "score.value": "Scores", "comments.value": "Comments"})
     # print(df_corr.head())
     return df_corr.to_dict('records')
-
-
-# Callback to update graph with id = 'multi-axis-chart'
-@dash_app_analytics.callback(
-    Output('multi-axis-chart', 'figure'),
-    [Input("company-dropdown", "value")],
-    [Input("attribute-dropdown", "value")],
-    [Input("loading-2", "value")],
-    [Input("entity-dropdown", "value")],
-)
-def update_figure(company, attribute, loading, entity):
-    pd.set_option('display.max_columns', None)
-    df_submission = get_submission_normalized(company, entity)
-    df_stock = get_stock_normalized(company, '2021-01-01', '2021-03-31')
-    fig = make_subplots(specs=[[{"secondary_y": True}]])
-    # Add traces
-    fig.add_trace(
-        go.Scatter(x=df_submission["key_as_string"], y=df_submission[attribute],
-                   name=str(company).upper() + " reddit " + customwrap(attributes[attribute], 15)),
-        secondary_y=False,
-    )
-    fig.add_trace(
-        go.Ohlc(x=df_stock['date'], open=df_stock['open'], high=df_stock['high'], low=df_stock['low'],
-                close=df_stock['close'], name=str(company).upper() + ' OHLC Trace'),
-        # go.Scatter(x=df_stock["date"], y=df_stock["close"], name=company + " stock price"),
-        secondary_y=True,
-    )
-    fig.update_layout(
-        title_text=customwrap(
-            "<b>Can we find a relationship between Reddit submissions, influencers, and stock price?</b>", 75),
-         title_font_color='rgb(245, 230, 220)', paper_bgcolor='rgb(54, 57, 63)', plot_bgcolor='rgb(54, 57, 63)', legend_font_color='rgb(245, 230, 220)'
-    )
-
-    # Set x-axis title
-    fig.update_xaxes(title_text="Date", title_font_color='rgb(245, 230, 220)', color='rgb(245, 230, 220)')
-    # Set y-axes titles
-    fig.update_yaxes(title_text="<b>Reddit Submission Attribute</b>", title_font_color='rgb(245, 230, 220)', color='rgb(245, 230, 220)', secondary_y=False,)
-    fig.update_yaxes(title_text="<b>Stock Price</b>", title_font_color='rgb(245, 230, 220)', color='rgb(245, 230, 220)', secondary_y=True)
-    return fig
-
-
-@cache_home.memoize(timeout=TIMEOUT)
-def get_submission_df(company, entity):
-    return get_submissions_from_date(company, entity, True, '2021-01-01', '2021-03-31')
-
-
-# Callback to update wordcloud image with id = 'image_wc'
-@dash_app_analytics.callback(
-    Output('image_wc', 'src'),
-    [Input('image_wc', 'id'),
-     Input("company-dropdown", "value"), Input("entity-dropdown", "value"), ]
-)
-def save_word_cloud(b, company, entity):
-    img = BytesIO()
-    data = get_submission_df(company, entity)
-    entites = [e['key'] for e in list(chain.from_iterable([d['keyphrases']['buckets'] for d in data]))]
-    diamond = np.array(Image.open('static\img\diamond.png'))
-
-    wordcloud = WordCloud(
-        background_color='rgb(54, 57, 63)',
-        colormap = 'autumn',
-        mask = diamond,
-        width=500,
-        height=500
-    ).generate(' '.join(entites))
-    wordcloud.to_image().save(img, format='PNG')
-    return 'data:image/png;base64,{}'.format(base64.b64encode(img.getvalue()).decode())
 
 
 #######################################################################################################
@@ -474,6 +356,83 @@ def loading_3(value):
     return value
 
 
+@dash_app_home.callback(Output("loading-output-2", "children"),
+                        Input("entity-dropdown", "value"))
+def loading_2(value):
+    time.sleep(0)
+    return value
+
+
+# Callback to update graph with id = 'multi-axis-chart'
+@dash_app_home.callback(
+    Output('multi-axis-chart', 'figure'),
+    [Input("company-dropdown", "value")],
+    [Input("attribute-dropdown", "value")],
+    [Input("loading-2", "value")],
+    [Input("entity-dropdown", "value")],
+)
+def update_figure(company, attribute, loading, entity):
+    pd.set_option('display.max_columns', None)
+    df_submission = get_submission_normalized(company, entity)
+    df_stock = get_stock_normalized(company, '2021-01-01', '2021-04-28')
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
+    # Add traces
+    fig.add_trace(
+        go.Scatter(x=df_submission["key_as_string"], y=df_submission[attribute],
+                   name=str(company).upper() + " reddit " + customwrap(attributes[attribute], 15)),
+        secondary_y=False,
+    )
+    fig.add_trace(
+        go.Ohlc(x=df_stock['date'], open=df_stock['open'], high=df_stock['high'], low=df_stock['low'],
+                close=df_stock['close'], name=str(company).upper() + ' OHLC Trace'),
+        # go.Scatter(x=df_stock["date"], y=df_stock["close"], name=company + " stock price"),
+        secondary_y=True,
+    )
+    fig.update_layout(
+        title_text=customwrap(
+            "<b>Can we find a relationship between Reddit submissions, influencers, and stock price?</b>", 75),
+        title_font_color='rgb(245, 230, 220)', paper_bgcolor='rgb(54, 57, 63)', plot_bgcolor='rgb(54, 57, 63)',
+        legend_font_color='rgb(245, 230, 220)'
+    )
+
+    # Set x-axis title
+    fig.update_xaxes(title_text="Date", title_font_color='rgb(245, 230, 220)', color='rgb(245, 230, 220)')
+    # Set y-axes titles
+    fig.update_yaxes(title_text="<b>Reddit Submission Attribute</b>", title_font_color='rgb(245, 230, 220)',
+                     color='rgb(245, 230, 220)', secondary_y=False, )
+    fig.update_yaxes(title_text="<b>Stock Price</b>", title_font_color='rgb(245, 230, 220)', color='rgb(245, 230, 220)',
+                     secondary_y=True)
+    return fig
+
+
+@cache_home.memoize(timeout=TIMEOUT)
+def get_submission_df(company, entity):
+    return get_submissions_from_date(company, entity, True, '2021-01-01', '2021-04-28')
+
+
+# Callback to update wordcloud image with id = 'image_wc'
+@dash_app_home.callback(
+    Output('image_wc', 'src'),
+    [Input('image_wc', 'id'),
+     Input("company-dropdown", "value"), Input("entity-dropdown", "value"), ]
+)
+def save_word_cloud(b, company, entity):
+    img = BytesIO()
+    data = get_submission_df(company, entity)
+    entites = [e['key'] for e in list(chain.from_iterable([d['keyphrases']['buckets'] for d in data]))]
+    diamond = np.array(Image.open('static/img/diamond.png'))
+
+    wordcloud = WordCloud(
+        background_color='rgb(54, 57, 63)',
+        colormap='autumn',
+        mask=diamond,
+        width=500,
+        height=500
+    ).generate(' '.join(entites))
+    wordcloud.to_image().save(img, format='PNG')
+    return 'data:image/png;base64,{}'.format(base64.b64encode(img.getvalue()).decode())
+
+
 dash_app_home.layout = html.Div([
     dngr.DangerouslySetInnerHTML(
         dash_header.replace('$home', 'active').replace('$data', 'inactive').replace('$analytics', 'inactive').replace(
@@ -510,15 +469,63 @@ dash_app_home.layout = html.Div([
     # sunburst chart
     html.Div([
         dcc.Graph(id='sunburst'), ],
-        style={'display': 'inline-block', 'margin-top': '100px', 'margin-left': '50px', 'position': 'relative',
+        style={'display': 'block', 'margin-top': '100px', 'margin-left': '625px', 'position': 'relative',
                'float': 'left'}),
+
+    # div for graph and its filters
+    html.Div([
+        html.Div([
+            # filter for companies
+            html.Div([
+                html.P(["Companies: "]),
+                dcc.Dropdown(id="company-dropdown", clearable=False, value='gme',
+                             options=[{'label': c, 'value': c} for c in ["gme", "amc"]],
+                             style={'width': '150px', 'display': 'inline-block', 'color': '#000'})],
+                style={'position': 'relative', 'float': 'left'}),
+            # filter for entities
+            html.Div([
+                html.P(["Entities: "]),
+                dcc.Dropdown(id="entity-dropdown", clearable=False, value='All',
+                             options=[{'label': c, 'value': c} for c in
+                                      ["All", "Elon Musk", "DeepFuckingValue", "Robinhood",
+                                       "Melvin Capital"]],
+                             style={'width': '150px', 'display': 'inline-block', 'color': '#000'})],
+                style={'position': 'relative', 'float': 'left',
+                       'margin-left': '20px'}),
+            # filter for attributes
+            html.Div([
+                html.P(["Attribute: "], style={'margin-left': '40px'}),
+                dcc.Dropdown(id="attribute-dropdown", clearable=False,
+                             value='score.value',
+                             options=[{'label': attributes[c], 'value': c} for c in attributes],
+                             style={'width': '200px', 'display': 'inline-block', 'color': '#000'})],
+                style={'position': 'relative', 'float': 'left',
+                       'margin-left': '20px'}),
+        ], style={'margin-top': '20px', 'margin-left': '100px'}),
+        html.Div([dcc.Loading(
+            id="loading-2",
+            children=[
+                # graph stock vs submission data
+                html.Div([dcc.Graph(id='multi-axis-chart',
+                                    style={'position': 'relative', 'float': 'left', 'width': '800px'}
+                                    )], style={'width': '800px', 'position': 'relative', 'float': 'left',
+                                               'display': 'inline-block',
+                                               'margin-left': '100px'}),
+                # div for wordcloud image
+                html.Div([html.Center(html.Img(id="image_wc"))],
+                         style={'width': '400px', 'position': 'relative', 'float': 'left',
+                                'margin-left': '50px', 'margin-bottom': '50px'}),
+            ])
+        ], style={'margin-top': '150px'})
+    ], style={'position': 'relative', 'float': 'left', 'margin-left': 'auto', 'margin-right': 'auto',
+              'margin-top': '50px', 'width': '100%'})
 ])
 
 
 @cache_home.memoize(timeout=TIMEOUT)
 def get_sunburst_data():
     sentiments = ['Negative', 'Positive', 'Neutral']
-    companies = ['gme', 'amc', 'appl']
+    companies = ['gme', 'amc', 'aapl']
     df = pd.DataFrame()
     q = ''
     for company in companies:
@@ -560,8 +567,9 @@ def get_sunburst_data():
 def update_sunburst(attribute):
     df = get_sunburst_data()
     fig = px.sunburst(df, path=['company', 'sentiment', 'title'], values='sentiment_score', color='sentiment',
-                      color_discrete_map={'(?)': 'melon', 'POSITIVE': 'rgb(135, 210, 0)', 'NEGATIVE': '#FB0D0D', 'NEUTRAL': '#19D3F3'})
-    fig.update_layout(width=500, height=500, paper_bgcolor='rgb(54, 57, 63)', plot_bgcolor='rgb(54, 57, 63)')
+                      color_discrete_map={'(?)': 'melon', 'POSITIVE': 'rgb(135, 210, 0)', 'NEGATIVE': '#FB0D0D',
+                                          'NEUTRAL': '#19D3F3'})
+    fig.update_layout(width=600, height=600, paper_bgcolor='rgb(54, 57, 63)', plot_bgcolor='rgb(54, 57, 63)')
     fig.update_layout(title_text=customwrap("<b>Top submissions based on sentiments for various stocks<b>", 20),
                       title_font_color='rgb(245, 230, 220)')
     return fig
@@ -576,22 +584,26 @@ def update_sunburst(attribute):
 def update_sentiment_line_chart(action, loading, ticker):
     pd.set_option('display.max_columns', None)
     df_submission = get_submission_normalized(action + ' ' + ticker, 'all')
-    df_stock = get_stock_normalized(ticker, '2021-01-01', '2021-03-31')
+    df_stock = get_stock_normalized(ticker, '2021-01-01', '2021-04-28')
     fig = make_subplots(specs=[[{"secondary_y": True}]])
     # Add traces
     fig.add_trace(
         go.Scatter(x=df_submission["key_as_string"], y=df_submission['negative.value'],
-                   name=ticker + " " + action + " NEGATIVE", line=dict(color = 'rgb(255, 0, 0)', width = 3)), secondary_y=True, )
+                   name=ticker + " " + action + " NEGATIVE", line=dict(color='rgb(255, 0, 0)', width=3)),
+        secondary_y=True, )
     fig.add_trace(
         go.Scatter(x=df_submission["key_as_string"], y=df_submission['positive.value'],
-                   name=ticker + " " + action + " POSITIVE",  line=dict(color = 'rgb(135, 210, 0)', width = 3)), secondary_y=True,)
+                   name=ticker + " " + action + " POSITIVE", line=dict(color='rgb(135, 210, 0)', width=3)),
+        secondary_y=True, )
     fig.add_trace(
         go.Scatter(x=df_submission["key_as_string"], y=df_submission['neutral.value'],
-                   name=ticker + " " + action + " NEUTRAL", line = dict(color = 'rgb(41, 159, 231)', width = 3)), secondary_y=True, )
+                   name=ticker + " " + action + " NEUTRAL", line=dict(color='rgb(41, 159, 231)', width=3)),
+        secondary_y=True, )
     fig.add_trace(
         go.Scatter(x=df_submission["key_as_string"],
                    y=abs(df_submission['positive.value'] - df_submission['negative.value']),
-                   name=ticker + " " + action + " DIFF",  line = dict(color = 'rgb(255, 255, 0)', width = 3)), secondary_y=True, )
+                   name=ticker + " " + action + " DIFF", line=dict(color='rgb(255, 255, 0)', width=3)),
+        secondary_y=True, )
     fig.add_trace(
         go.Bar(x=df_stock["date"], y=df_stock["volume"], name=ticker + " trade volume"), secondary_y=False,
     )
@@ -608,8 +620,8 @@ def update_sentiment_line_chart(action, loading, ticker):
                      color='rgb(245, 230, 220)', secondary_y=True)
     fig.update_yaxes(title_text="<b>Stock Trade Volume</b>", title_font_color='rgb(245, 230, 220)',
                      color='rgb(245, 230, 220)', secondary_y=False)
-    fig.for_each_trace(lambda trace: trace.update(visible="legendonly") 
-                   if trace.name.find('NEGATIVE') != -1 or trace.name.find('NEUTRAL') != -1 or trace.name.find('DIFF') != -1 else ())
+    fig.for_each_trace(lambda trace: trace.update(visible="legendonly")
+    if trace.name.find('NEGATIVE') != -1 or trace.name.find('NEUTRAL') != -1 or trace.name.find('DIFF') != -1 else ())
     return fig
 
 
